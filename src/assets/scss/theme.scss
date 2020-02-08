@@ -2,4 +2,7 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
+@import './components/animation';
 @import './components/global';
+@import './components/button';
+@import './components/header';
