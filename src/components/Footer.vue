@@ -44,13 +44,11 @@ export default {
     methods: {
         fixedFooter: function() {
             let footerHeight = this.$refs.footer.offsetHeight;
-            console.log(footerHeight);
             document.body.style.paddingBottom = footerHeight + 'px';
         }
     },
     mounted() {
-        document.addEventListener('DOMContentLoaded', this.fixedFooter)
-        this.fixedFooter;
+        document.addEventListener('DOMContentLoaded', this.fixedFooter);
     }
 }
 </script>
