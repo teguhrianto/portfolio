@@ -1,0 +1,22 @@
+.card{
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    border-color: #ddd;
+
+    &.item-skill{
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        margin-bottom: 30px;
+
+        .icon{
+            img{
+                height: 80px;
+                width: auto;
+            }
+        }
+
+        &:hover{
+            border-color: $primary;
+            transform: scale(1.1);
+        }
+    }
+}

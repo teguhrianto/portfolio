@@ -1,8 +1,8 @@
 <template>
-    <header>
-        <b-navbar toggleable="md" type="light" variant="default">
+    <header ref="navbarAffix">
+        <b-navbar toggleable="md" type="light" variant="default" :class="{affix: isAffix}">
             <b-container>
-                <b-navbar-brand href="#">NavBar</b-navbar-brand>
+                <b-navbar-brand href="/" class="font-weight-bold">T<span class="text-primary">R</span></b-navbar-brand>
 
                 <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -18,7 +18,7 @@
                             <a href="#experiences" class="nav-link scrollactive-item">Experiences</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#portfolio" class="nav-link scrollactive-item">Portfolio</a>
+                            <a href="#works" class="nav-link scrollactive-item">Works</a>
                         </li>
                         <li class="nav-item">
                             <a href="#contact" class="nav-link scrollactive-item">Contact</a>
@@ -32,6 +32,23 @@
 
 <script>
 export default {
-    name: 'Header'
+    name: 'Header',
+    data: function() {
+        return {
+            isAffix:false
+        };
+    },
+    methods: {
+        scrolling: function() {
+            if ( this.$refs.navbarAffix.offsetTop - window.scrollY <= -100) {
+                this.isAffix = true;
+            } else {
+                this.isAffix = false;
+            }
+        }
+    },
+    mounted() {
+        window.addEventListener('scroll', this.scrolling);
+    }
 }
 </script>

@@ -1,14 +1,18 @@
 header{
     .navbar{
         padding: 15px 0px;
-        background-color: $white;
-        -webkit-box-shadow: 0px 0px 18px 1px rgba($black, 0.1);
-        box-shadow: 0px 0px 18px 1px rgba($black, 0.1);
+        background-color: transparent;
         position: fixed;
         width: 100%;
         z-index: 1024;
+        transition: all 0.3s ease-in-out;
     
         .navbar-brand{
+            padding: 0;
+            font-size: 3rem;
+            line-height: 1;
+            color: $white;
+            transition: all 0.3s ease-in-out;
             img{
                 height: 60px;
             }
@@ -22,12 +26,35 @@ header{
                     position: relative;
                     margin: 0 7px;
                     font-weight: 500;
-                    transition: all 0.4s;
-                    &.active{
+                    transition: all 0.3s ease-in-out;
+                    color: $white;
+                    &:hover, &.active{
                         color: $primary;
                     }
                 }
     
+            }
+        }
+
+        &.affix{
+            position: fixed;
+            background-color: $white;
+            -webkit-box-shadow: 0px 0px 18px 1px rgba($black, 0.1);
+            box-shadow: 0px 0px 18px 1px rgba($black, 0.1);
+
+            .navbar-brand{
+                color: $black;
+            }
+
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        color: $black;
+                        &:hover, &.active{
+                            color: $primary;
+                        }
+                    }
+                }
             }
         }
     }

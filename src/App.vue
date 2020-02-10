@@ -46,30 +46,63 @@
 
 		<section class="about" id="about">
 			<b-container>
-				<b-row align-v="center" align-h="between">
-					<b-col md="5">
-						<img src="./assets/img/profile.jpg" class="img-fluid" alt="">
-					</b-col>
-					<b-col md="6">
-						<h3 class="font-weight-bold">About Me</h3>
-						<p>
-							Born & raised in Cimahi, Indonesia. I'm a Frontend Developer with extensive experience for over 6 years who still learning by time and doing.<br>
-							My expertise is to convert a Mockup or Design (PSD, Sketch, XD, Figma) into Clean Code (HTML, SCSS, CSS, JS). I have had a chance to work on a variety of projects, with agencies, companies or even individuals.
-						</p>
+				<b-row align-v="center" align-h="center">
+					<b-col lg="10">
+						<b-row align-v="center" align-h="between">
+							<b-col md="5">
+								<div class="profile p-2 border rounded">
+									<img src="./assets/img/profile.jpg" class="img-fluid rounded" alt="">
+								</div>
+							</b-col>
+							<b-col md="7">
+								<h3 class="font-weight-bold">About Me</h3>
+								<p>
+									Born & raised in Cimahi, Indonesia. I'm a Frontend Developer with extensive experience for over 6 years who still learning by time and doing.
+								</p>
+								<p>
+									My expertise is to convert a Mockup or Design (PSD, Sketch, XD, Figma) into Clean Code (HTML, SCSS, CSS, JS).
+								</p>
+								<p>
+									I've had a chance to work on a variety of projects, with agencies, companies or even individuals.
+								</p>
+								<hr>
+								<b-row>
+									<b-col cols="auto">
+										<p>
+											<font-awesome-icon icon="phone" class="mr-2"></font-awesome-icon> <a class="text-dark" href="tel:+6281320264420"><strong>+62 813 2026 4420</strong></a>
+										</p>
+									</b-col>
+									<b-col cols="auto">
+										<p>
+											<font-awesome-icon icon="envelope" class="mr-2"></font-awesome-icon> <a class="text-dark" href="mailto:teguh.rianto22@gmail.com"><strong>teguh.rianto22@gmail.com</strong></a>
+										</p>
+									</b-col>
+								</b-row>
+								<a href="#" class="btn btn-primary btn-lg px-4"><font-awesome-icon icon="download" class="mr-2"></font-awesome-icon> Download CV</a>
+							</b-col>
+						</b-row>
 					</b-col>
 				</b-row>
 			</b-container>
 		</section>
+
+		<Skills />
+
+		<Experiences />
 	</main>
 </template>
 
 <script>
 import Header from './components/Header.vue'
+import Skills from './components/Skills.vue'
+import Experiences from './components/Experiences.vue'
 
 export default {
 	name: 'app',
 	components: {
-		Header
+		Header,
+		Skills,
+		Experiences
 	}
 }
 </script>
