@@ -1,5 +1,5 @@
 <template>
-    <footer>
+    <footer ref="footer">
         <b-container>
             <p class="text-center mb-2">
                 Teguh Rianto &trade; 2020 | Made with <font-awesome-icon :icon="['fas', 'heart']" class="text-danger"></font-awesome-icon> and <font-awesome-icon :icon="['fab', 'vuejs']" class="text-success"></font-awesome-icon>
@@ -41,5 +41,16 @@
 <script>
 export default {
     name: 'Footer',
+    methods: {
+        fixedFooter: function() {
+            let footerHeight = this.$refs.footer.offsetHeight;
+            console.log(footerHeight);
+            document.body.style.paddingBottom = footerHeight + 'px';
+        }
+    },
+    mounted() {
+        document.addEventListener('DOMContentLoaded', this.fixedFooter)
+        this.fixedFooter;
+    }
 }
 </script>

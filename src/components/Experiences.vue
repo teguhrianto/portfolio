@@ -5,7 +5,7 @@
             <b-row align-h="center">
                 <b-col lg="11">
                     <ul class="timeline">
-                        <li v-for="experience in experiences" :key="experience.id">
+                        <li v-for="experience in experiences" :key="experience.id" data-aos="fade-up" data-aos-duration="300">
                             <b-row align-h="between">
                                 <b-col md="6">
                                     <p class="date small mb-2">

@@ -3,7 +3,7 @@
         <b-container>
             <h3 class="text-center font-weight-bold mb-5">My Skills &amp; <span class="text-primary">Services</span></h3>
             <b-row align-h="center">
-                <b-col lg="3" md="4" sm="6" v-for="skill in skills" :key="skill.id">
+                <b-col lg="3" md="4" sm="6" v-for="skill in skills" :key="skill.id" data-aos="fade-up" data-aos-duration="300">
                     <b-card class="item-skill">
                         <div class="icon">
                             <img :src="skill.icon" alt="">

@@ -21,7 +21,7 @@
                             <a href="#works" class="nav-link scrollactive-item">Works</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contact" class="nav-link scrollactive-item">Contact</a>
+                            <a href="mailto:teguh.rianto22@gmail.com" class="nav-link">Contact</a>
                         </li>
                     </scrollactive>
                 </b-collapse>
