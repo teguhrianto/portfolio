@@ -91,6 +91,8 @@
 		<Experiences />
 
 		<Works />
+
+		<Footer />
 	</main>
 </template>
 
@@ -99,6 +101,7 @@ import Header from './components/Header.vue'
 import Skills from './components/Skills.vue'
 import Experiences from './components/Experiences.vue'
 import Works from './components/Works.vue'
+import Footer from './components/Footer.vue'
 
 export default {
 	name: 'app',
@@ -106,7 +109,8 @@ export default {
 		Header,
 		Skills,
 		Experiences,
-		Works
+		Works, 
+		Footer
 	}
 }
 </script>
