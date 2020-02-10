@@ -20,28 +20,31 @@
 								Have a look around and if you're interested in working together, <a href="mailto:teguh.rianto22@gmail.com" class="text-primary">get in touch!</a>
 							</h5>
 						</b-col>
+						<b-col lg="12">
+							<b-row align-h="center" class="pt-3">
+								<b-col cols="auto">
+									<div class="form-group">
+										<a href="https://github.com/teguhrianto" class="btn btn-dark btn-md" target="_blank">
+											<font-awesome-icon :icon="['fab', 'github']" class="mr-1"></font-awesome-icon> Github
+										</a>
+									</div>
+								</b-col>
+								<b-col cols="auto">
+									<div class="form-group">
+										<a href="https://www.linkedin.com/in/teguhrianto/" class="btn btn-info btn-md" target="_blank">
+											<font-awesome-icon :icon="['fab', 'linkedin']" class="mr-1"></font-awesome-icon> Linkedin
+										</a>
+									</div>
+								</b-col>
+							</b-row>
+						</b-col>
 						<b-col lg=12 data-aos="fade-up" data-aos-duration="800">
 							<scrollactive>
 								<a href="#about" class="scroll-down scrollactive-item"></a>
 							</scrollactive>
 						</b-col>
 					</b-row>
-					<!-- <b-row align-h="center" class="pt-5">
-						<b-col cols="auto">
-							<div class="form-group">
-								<a href="#portfolio" class="btn btn-light btn-lg px-5 py-3">
-									My Works
-								</a>
-							</div>
-						</b-col>
-						<b-col cols="auto">
-							<div class="form-group">
-								<a href="mailto:teguh.rianto22@gmail.com" class="btn btn-primary btn-lg px-5 py-3">
-									Hire Me
-								</a>
-							</div>
-						</b-col>
-					</b-row> -->
+					
 				</b-container>
 			</section>
 
@@ -66,6 +69,9 @@
 									<p>
 										I've had a chance to work on a variety of projects, with agencies, companies or even individuals.
 									</p>
+									<p>
+										I also create, maintained, &amp; contribute to some open source projects, <a href="https://github.com/o2system/" target="_blank">O2System PHP Framework</a> is one of them. You can see my other open source projects on my <a href="https://github.com/teguhrianto" target="_blank">Github</a> 
+									</p>
 									<hr>
 									<b-row>
 										<b-col cols="auto">
@@ -79,7 +85,7 @@
 											</p>
 										</b-col>
 									</b-row>
-									<a href="#" class="btn btn-primary btn-lg px-4"><font-awesome-icon icon="download" class="mr-2"></font-awesome-icon> Download CV</a>
+									<a href="#" class="btn btn-primary btn-md"><font-awesome-icon icon="download" class="mr-2"></font-awesome-icon> Download CV</a>
 								</b-col>
 							</b-row>
 						</b-col>

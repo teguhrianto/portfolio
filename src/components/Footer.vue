@@ -2,7 +2,7 @@
     <footer ref="footer">
         <b-container>
             <p class="text-center mb-2">
-                Teguh Rianto &trade; 2020 | Made with <font-awesome-icon :icon="['fas', 'heart']" class="text-danger"></font-awesome-icon> and <font-awesome-icon :icon="['fab', 'vuejs']" class="text-success"></font-awesome-icon>
+                Teguh Rianto&trade; 2020 | Made with <font-awesome-icon :icon="['fas', 'heart']" class="text-danger"></font-awesome-icon> and <font-awesome-icon :icon="['fab', 'vuejs']" class="text-success"></font-awesome-icon>
             </p>
             <b-form-row class="justify-content-center">
                 <b-col cols="auto">
