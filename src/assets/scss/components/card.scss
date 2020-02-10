@@ -19,4 +19,58 @@
             transform: scale(1.1);
         }
     }
+
+    &.item-work{
+        .card-img-top{
+            position: relative;
+            height: 280px;
+            overflow: hidden;
+
+            img{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center center;
+                transition: all 0.3s ease-in-out;
+                top: 0;
+                left: 0;
+
+                &.img-first{
+                    opacity: 1;
+                }
+                &.img-second{
+                    opacity: 0;
+                }
+            }
+
+            &:hover{
+                img{
+                    &.img-first{
+                        opacity: 0;
+                    }
+                    &.img-second{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        ul{
+            &.tech{
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                display: flex;
+
+                li{
+                    display: block;
+
+                    + li{
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
 }

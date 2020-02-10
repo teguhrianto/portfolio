@@ -55,7 +55,7 @@
 								</div>
 							</b-col>
 							<b-col md="7">
-								<h3 class="font-weight-bold">About Me</h3>
+								<h3 class="font-weight-bold">About <span class="text-primary">Me</span></h3>
 								<p>
 									Born & raised in Cimahi, Indonesia. I'm a Frontend Developer with extensive experience for over 6 years who still learning by time and doing.
 								</p>
@@ -89,6 +89,8 @@
 		<Skills />
 
 		<Experiences />
+
+		<Works />
 	</main>
 </template>
 
@@ -96,13 +98,15 @@
 import Header from './components/Header.vue'
 import Skills from './components/Skills.vue'
 import Experiences from './components/Experiences.vue'
+import Works from './components/Works.vue'
 
 export default {
 	name: 'app',
 	components: {
 		Header,
 		Skills,
-		Experiences
+		Experiences,
+		Works
 	}
 }
 </script>
