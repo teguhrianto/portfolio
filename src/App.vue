@@ -70,7 +70,7 @@
 										I've had a chance to work on a variety of projects, with agencies, companies or even individuals.
 									</p>
 									<p>
-										I also create, maintained, &amp; contribute to some open source projects, <a href="https://github.com/o2system/" target="_blank">O2System PHP Framework</a> is one of them. You can see my other open source projects on my <a href="https://github.com/teguhrianto" target="_blank">Github</a> 
+										I also create, maintain, &amp; contribute to some open source projects, <a href="https://github.com/o2system/" target="_blank">O2System PHP Framework</a> is one of them. You can see my other open source projects on my <a href="https://github.com/teguhrianto" target="_blank">Github</a> 
 									</p>
 									<hr>
 									<b-row>
