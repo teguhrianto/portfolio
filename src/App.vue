@@ -32,7 +32,7 @@
 								<b-col cols="auto">
 									<div class="form-group">
 										<a href="https://www.linkedin.com/in/teguhrianto/" class="btn btn-info btn-md" target="_blank">
-											<font-awesome-icon :icon="['fab', 'linkedin']" class="mr-1"></font-awesome-icon> Linkedin
+											<font-awesome-icon :icon="['fab', 'linkedin']" class="mr-1"></font-awesome-icon> LinkedIn
 										</a>
 									</div>
 								</b-col>
