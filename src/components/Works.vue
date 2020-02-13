@@ -6,8 +6,7 @@
                 <b-col lg="4" md="4" sm="6" v-for="work in works" :key="work.id" data-aos="fade-left" data-aos-duration="300">
                     <div class="card item-work">
                         <div class="card-img-top">
-                            <img :src="work.img_first" alt="" class="img-first">
-                            <img :src="work.img_second" alt="" class="img-second">
+                            <a :href="work.url" target="_blank"><img :src="work.img_first" alt="" class=""></a>
                         </div>
                         <div class="card-body">
                             <h5 class="font-weight-bold mb-1">
@@ -52,8 +51,72 @@ export default {
                     title:'Sampoerna Kayu', 
                     url: 'https://www.sampoernakayoe.co.id/',
                     github: '',
-                    img_first: require('./../assets/img/works/img-1.jpg'), 
-                    img_second: require('./../assets/img/works/img-2.jpg'), 
+                    img_first: require('./../assets/img/works/sampoerna-kayu.jpg'), 
+                    img_second: '', 
+                    description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '1',
+                    title:'Net Virtue', 
+                    url: 'https://netvirtue.com.au/',
+                    github: '',
+                    img_first: require('./../assets/img/works/netvirtue.png'), 
+                    img_second: '', 
+                    description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '2',
+                    title:'Luchadores Legales', 
+                    url: 'https://luchadoreslegales.com/',
+                    github: '',
+                    img_first: require('./../assets/img/works/luchadores.jpg'), 
+                    img_second: '', 
+                    description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '3',
+                    title:'Nara Park', 
+                    url: 'http://narapark.co.id/',
+                    github: '',
+                    img_first: require('./../assets/img/works/narapark.jpg'), 
+                    img_second: '', 
+                    description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '4',
+                    title:'OC & Associates', 
+                    url: 'http://ocassociates.jp/',
+                    github: '',
+                    img_first: require('./../assets/img/works/oc-associates.jpg'), 
+                    img_second: '', 
                     description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
                     tech: [
                             require('./../assets/img/skills/bootstrap.png'), 
