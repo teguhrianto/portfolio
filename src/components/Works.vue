@@ -51,7 +51,7 @@ export default {
                     title:'Net Virtue', 
                     url: 'https://netvirtue.com.au/',
                     github: '',
-                    img_first: require('./../assets/img/works/netvirtue.png'), 
+                    img_first: require('./../assets/img/works/netvirtue.jpg'), 
                     img_second: '', 
                     description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
                     tech: [
@@ -179,7 +179,7 @@ export default {
                     title:'Mikrotik Template', 
                     url: '#',
                     github: 'https://github.com/teguhrianto/responsive-mikrotik-template-bootstrap4',
-                    img_first: require('./../assets/img/works/mikrotik.png'), 
+                    img_first: require('./../assets/img/works/mikrotik.jpg'), 
                     img_second: '', 
                     description:'Open Source Mikrotik Template with responsive layout & cross browser compability.',
                     tech: [
