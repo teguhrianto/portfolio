@@ -4,6 +4,7 @@
 @import '~bootstrap-vue/src/index.scss';
 @import '~aos/dist/aos.css';
 
+@import './components/mixins';
 @import './components/animation';
 @import './components/global';
 @import './components/button';

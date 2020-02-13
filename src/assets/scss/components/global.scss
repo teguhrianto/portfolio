@@ -111,6 +111,11 @@ section{
         left: 50%;
         transform: translateX(-50%);
         background-color: #ddd;
+
+        @include device(mobile){
+            left: 0;
+            transform: unset;
+        }
     }
 
     li{
@@ -136,6 +141,11 @@ section{
             background-color: $primary;
             border: 5px solid $white;
             transition: all 0.3s ease-in-out;
+
+            @include device(mobile){
+                left: -10px;
+                transform: unset;
+            }
         }
         .date{
             letter-spacing: 2px;
@@ -147,6 +157,10 @@ section{
         .description{
             text-align: right;
             padding: 0 20px;
+
+            @include device(mobile){
+                text-align: left;
+            }
         }
 
         &:nth-child(2n+1){
@@ -155,6 +169,9 @@ section{
             }
             .date{
                 text-align: right;
+                @include device(mobile){
+                    text-align: left;
+                }
             }
             .description{
                 text-align: left;

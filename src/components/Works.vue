@@ -21,7 +21,7 @@
                                 {{work.description}}
                             </p>
                             <b-form-row>
-                                <b-col cols="auto">
+                                <b-col cols="auto" v-if="work.url !== '#'">
                                     <a :href="work.url" target="_blank" class="btn btn-primary">
                                         <font-awesome-icon :icon="['fas', 'eye']"></font-awesome-icon> View Site
                                     </a>
@@ -48,7 +48,23 @@ export default {
             works:[
                 {
                     id: '0',
-                    title:'Sampoerna Kayu', 
+                    title:'Net Virtue', 
+                    url: 'https://netvirtue.com.au/',
+                    github: '',
+                    img_first: require('./../assets/img/works/netvirtue.png'), 
+                    img_second: '', 
+                    description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '1',
+                    title:'Sampoerna Kayoe', 
                     url: 'https://www.sampoernakayoe.co.id/',
                     github: '',
                     img_first: require('./../assets/img/works/sampoerna-kayu.jpg'), 
@@ -63,11 +79,11 @@ export default {
                         ]
                 },
                 {
-                    id: '1',
-                    title:'Net Virtue', 
-                    url: 'https://netvirtue.com.au/',
+                    id: '10',
+                    title:'PT SMI (Persero)', 
+                    url: 'https://ptsmi.co.id/',
                     github: '',
-                    img_first: require('./../assets/img/works/netvirtue.png'), 
+                    img_first: require('./../assets/img/works/smi.jpg'), 
                     img_second: '', 
                     description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
                     tech: [
@@ -96,10 +112,10 @@ export default {
                 },
                 {
                     id: '3',
-                    title:'Nara Park', 
-                    url: 'http://narapark.co.id/',
+                    title:'OC & Associates', 
+                    url: 'http://ocassociates.jp/',
                     github: '',
-                    img_first: require('./../assets/img/works/narapark.jpg'), 
+                    img_first: require('./../assets/img/works/oc-associates.jpg'), 
                     img_second: '', 
                     description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
                     tech: [
@@ -112,12 +128,92 @@ export default {
                 },
                 {
                     id: '4',
-                    title:'OC & Associates', 
-                    url: 'http://ocassociates.jp/',
+                    title:'FXBulls', 
+                    url: 'https://www.fxbulls.com/',
                     github: '',
-                    img_first: require('./../assets/img/works/oc-associates.jpg'), 
+                    img_first: require('./../assets/img/works/fxbulls.jpg'), 
                     img_second: '', 
-                    description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
+                    description:'Slicing Sketch Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '5',
+                    title:'Freshcery Store', 
+                    url: 'https://groceries-organic-store.now.sh/',
+                    github: 'https://github.com/teguhrianto/Groceries-Organic-Store/',
+                    img_first: require('./../assets/img/works/freshcery.jpg'), 
+                    img_second: '', 
+                    description:'Open Source Ecommerce Template with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '6',
+                    title:'Nara Park', 
+                    url: 'http://narapark.co.id/',
+                    github: '',
+                    img_first: require('./../assets/img/works/narapark.jpg'), 
+                    img_second: '', 
+                    description:'Slicing Sketch Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '7',
+                    title:'Mikrotik Template', 
+                    url: '#',
+                    github: 'https://github.com/teguhrianto/responsive-mikrotik-template-bootstrap4',
+                    img_first: require('./../assets/img/works/mikrotik.png'), 
+                    img_second: '', 
+                    description:'Open Source Mikrotik Template with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '8',
+                    title:'Fuji String', 
+                    url: 'https://fujistring.com/',
+                    github: '',
+                    img_first: require('./../assets/img/works/fujistring.jpg'), 
+                    img_second: '', 
+                    description:'Slicing Sketch Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '9',
+                    title:'Lady Eve Patisserie', 
+                    url: 'https://ladyeve.id/',
+                    github: '',
+                    img_first: require('./../assets/img/works/ladyeve.jpg'), 
+                    img_second: '', 
+                    description:'Slicing Sketch Design to HTML Code with responsive layout & cross browser compability.',
                     tech: [
                             require('./../assets/img/skills/bootstrap.png'), 
                             require('./../assets/img/skills/html5.png'), 

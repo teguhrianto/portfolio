@@ -17,7 +17,7 @@
 							</h5> -->
 							<h5 data-aos="fade-up" data-aos-duration="500">
 								Here you'll find my resume &amp; some of my recent works as well.<br>
-								Have a look around and if you're interested in working together, <a href="mailto:teguh.rianto22@gmail.com" class="text-primary">get in touch!</a>
+								Have a look around and if you're interested in working together, <a href="mailto:hello@teguhrianto.my.id" class="text-primary">get in touch!</a>
 							</h5>
 						</b-col>
 						<b-col lg="12">
@@ -81,7 +81,7 @@
 										</b-col>
 										<b-col cols="auto">
 											<p>
-												<font-awesome-icon icon="envelope" class="mr-2"></font-awesome-icon> <a class="text-dark" href="mailto:teguh.rianto22@gmail.com"><strong>teguh.rianto22@gmail.com</strong></a>
+												<font-awesome-icon icon="envelope" class="mr-2"></font-awesome-icon> <a class="text-dark" href="mailto:hello@teguhrianto.my.id"><strong>hello@teguhrianto.my.id</strong></a>
 											</p>
 										</b-col>
 									</b-row>
