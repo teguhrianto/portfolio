@@ -54,14 +54,16 @@ section{
 
 .scroll-down{
     display: block;
-    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     width: 26px;
     height: 40px;
     border: 2px solid #FFFFFF;
     border-radius: 18px;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 80px;
 
     &:before{
         opacity: 0.5;

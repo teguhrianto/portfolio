@@ -38,21 +38,19 @@
 								</b-col>
 							</b-row>
 						</b-col>
-						<b-col lg=12 data-aos="fade-up" data-aos-duration="800">
-							<scrollactive>
-								<a href="#about" class="scroll-down scrollactive-item"></a>
-							</scrollactive>
-						</b-col>
 					</b-row>
-					
 				</b-container>
+				
+				<scrollactive>
+					<a href="#about" class="scroll-down scrollactive-item"></a>
+				</scrollactive>
 			</section>
 
 			<section class="about" id="about">
 				<b-container>
 					<b-row align-v="center" align-h="center">
 						<b-col lg="10">
-							<b-row align-v="center" align-h="between">
+							<b-row align-h="between">
 								<b-col md="5" data-aos="slide-right" data-aos-duration="500">
 									<div class="profile p-2 border rounded">
 										<img src="./assets/img/profile.jpg" class="img-fluid rounded" alt="">
@@ -85,7 +83,7 @@
 											</p>
 										</b-col>
 									</b-row>
-									<a href="#" class="btn btn-primary btn-md"><font-awesome-icon icon="download" class="mr-2"></font-awesome-icon> Download CV</a>
+									<a href="https://teguhrianto.my.id/CV-TEGUH-RIANTO.pdf" class="btn btn-primary btn-md" target="_blank"><font-awesome-icon icon="download" class="mr-2"></font-awesome-icon> Download CV</a>
 								</b-col>
 							</b-row>
 						</b-col>
