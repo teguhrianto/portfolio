@@ -47,6 +47,23 @@ export default {
         return {
             works:[
                 {
+                    id: '99',
+                    title:'Personal Portfolio', 
+                    url: 'https://teguhrianto.my.id/',
+                    github: 'https://github.com/teguhrianto/portfolio',
+                    img_first: require('./../assets/img/works/personal.jpg'), 
+                    img_second: '', 
+                    description:'Open Source VueJs Template with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bs-vue.png'), 
+                            require('./../assets/img/skills/vue.png'),
+                            require('./../assets/img/skills/js.png'),
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                        ]
+                },
+                {
                     id: '0',
                     title:'Net Virtue', 
                     url: 'https://netvirtue.com.au/',
@@ -212,6 +229,54 @@ export default {
                     url: 'https://ladyeve.id/',
                     github: '',
                     img_first: require('./../assets/img/works/ladyeve.jpg'), 
+                    img_second: '', 
+                    description:'Slicing Sketch Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '10',
+                    title:'Proof Of Concept', 
+                    url: 'https://proofofconcept.co.id/',
+                    github: '',
+                    img_first: require('./../assets/img/works/poc.jpg'), 
+                    img_second: '', 
+                    description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '11',
+                    title:'VCGamers', 
+                    url: 'https://teguhrianto.my.id/works/vcgamers/',
+                    github: '',
+                    img_first: require('./../assets/img/works/vcgamers.jpg'), 
+                    img_second: '', 
+                    description:'Slicing Sketch Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '12',
+                    title:'Beyoutiful', 
+                    url: 'https://teguhrianto.my.id/works/beyoutiful/',
+                    github: '',
+                    img_first: require('./../assets/img/works/beyoutiful.jpg'), 
                     img_second: '', 
                     description:'Slicing Sketch Design to HTML Code with responsive layout & cross browser compability.',
                     tech: [
