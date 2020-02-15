@@ -1,4 +1,4 @@
-# teguhrianto
+# Bootstrap Vue Personal Portfolio Template
 
 ## Project setup
 ```
