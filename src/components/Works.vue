@@ -3,7 +3,7 @@
         <b-container>
             <h3 class="text-center font-weight-bold mb-5">My Recent <span class="text-primary">Works</span></h3>
             <b-row align-h="center">
-                <b-col lg="4" md="4" sm="6" v-for="work in works" :key="work.id" data-aos="fade-left" data-aos-duration="300">
+                <b-col lg="4" md="4" sm="6" v-for="(work, index) in works" :key="index" data-aos="fade-left" data-aos-duration="300">
                     <div class="card item-work">
                         <div class="card-img-top">
                             <a :href="work.url" target="_blank"><img :src="work.img_first" alt="" class=""></a>
