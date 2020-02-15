@@ -59,7 +59,7 @@
 								<b-col md="7" data-aos="slide-left" data-aos-duration="600">
 									<h3 class="font-weight-bold">About <span class="text-primary">Me</span></h3>
 									<p>
-										Born & raised in Cimahi, Indonesia. I'm a Frontend Developer with extensive experience for over 6 years who still learning by time and doing.
+										Born & raised in Cimahi, Indonesia. I'm a Frontend Developer with extensive experience for over 7 years who still learning by time and doing.
 									</p>
 									<p>
 										My expertise is to convert a Mockup or Design (PSD, Sketch, XD, Figma) into Clean Code (HTML, SCSS, CSS, JS).

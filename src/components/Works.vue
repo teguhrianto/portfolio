@@ -287,6 +287,54 @@ export default {
                             require('./../assets/img/skills/jquery.png')
                         ]
                 },
+                {
+                    id: '13',
+                    title:'Rowawi', 
+                    url: 'https://teguhrianto.my.id/works/rowawi/',
+                    github: '',
+                    img_first: require('./../assets/img/works/rowawi.jpg'), 
+                    img_second: '', 
+                    description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '14',
+                    title:'My Life After Coffee', 
+                    url: 'https://teguhrianto.my.id/works/my-life-after-coffee/',
+                    github: '',
+                    img_first: require('./../assets/img/works/coffee.jpg'), 
+                    img_second: '', 
+                    description:'Slicing Sketch Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
+                {
+                    id: '15',
+                    title:'Deamaya', 
+                    url: 'https://teguhrianto.my.id/works/deamaya/',
+                    github: '',
+                    img_first: require('./../assets/img/works/deamaya.jpg'), 
+                    img_second: '', 
+                    description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
+                    tech: [
+                            require('./../assets/img/skills/bootstrap.png'), 
+                            require('./../assets/img/skills/html5.png'), 
+                            require('./../assets/img/skills/css3.png'),
+                            require('./../assets/img/skills/sass.png'), 
+                            require('./../assets/img/skills/jquery.png')
+                        ]
+                },
             ]
         };
     }
