@@ -70,7 +70,7 @@ export default {
                     github: '',
                     img_first: require('./../assets/img/works/netvirtue.jpg'), 
                     img_second: '', 
-                    description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
+                    description:'Slicing Sketch Design to HTML Code with responsive layout & cross browser compability.',
                     tech: [
                             require('./../assets/img/skills/bootstrap.png'), 
                             require('./../assets/img/skills/html5.png'), 
