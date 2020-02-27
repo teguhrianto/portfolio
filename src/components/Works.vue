@@ -12,7 +12,9 @@
                             <h5 class="font-weight-bold mb-0">
                                 <a :href="work.url" class="text-dark" target="_blank">{{work.title}}</a>
                             </h5>
-                            <p class="mb-1 text-muted">({{work.type}})</p>
+                            <p class="mb-1 text-muted">
+                                (Working with <a :href="work.work_with_url" target="_blank" class="font-weight-bold text-dark">{{work.work_with}}</a>)
+                            </p>
                             <ul class="tech mb-1">
                                 <li v-for="tech in work.tech" :key="tech">
                                     <img :src="tech" alt="" height="30">
@@ -49,7 +51,8 @@ export default {
             works:[
                 {
                     id: '99',
-                    type: 'Personal Open Source',
+                    work_with: 'Personal',
+                    work_with_url: 'https://teguhrianto.my.id/',
                     title:'Personal Portfolio', 
                     url: 'https://teguhrianto.my.id/',
                     github: 'https://github.com/teguhrianto/portfolio',
@@ -67,7 +70,8 @@ export default {
                 },
                 {
                     id: '1',
-                    type: 'Working with Threefold Team',
+                    work_with: 'Threefold Team',
+                    work_with_url: 'http://threefoldwebdev.com/',
                     title:'Net Virtue', 
                     url: 'https://netvirtue.com.au/',
                     github: '',
@@ -84,7 +88,8 @@ export default {
                 },
                 {
                     id: '2',
-                    type: 'Working with Threefold Team',
+                    work_with: 'Threefold Team',
+                    work_with_url: 'http://threefoldwebdev.com/',
                     title:'Luchadores Legales', 
                     url: 'https://luchadoreslegales.com/',
                     github: '',
@@ -101,7 +106,8 @@ export default {
                 },
                 {
                     id: '4',
-                    type: 'Working with Threefold Team',
+                    work_with: 'Threefold Team',
+                    work_with_url: 'http://threefoldwebdev.com/',
                     title:'FXBulls', 
                     url: 'https://www.fxbulls.com/',
                     github: '',
@@ -118,7 +124,8 @@ export default {
                 },
                 {
                     id: '5',
-                    type: 'Personal Open Source',
+                    work_with: 'Personal',
+                    work_with_url: 'https://teguhrianto.my.id/',
                     title:'Freshcery Store', 
                     url: 'https://groceries-organic-store.now.sh/',
                     github: 'https://github.com/teguhrianto/Groceries-Organic-Store/',
@@ -135,7 +142,8 @@ export default {
                 },
                 {
                     id: '6',
-                    type: 'Working with Threefold Team',
+                    work_with: 'Threefold Team',
+                    work_with_url: 'http://threefoldwebdev.com/',
                     title:'Nara Park', 
                     url: 'http://narapark.co.id/',
                     github: '',
@@ -152,7 +160,8 @@ export default {
                 },
                 {
                     id: '7',
-                    type: 'Personal Open Source',
+                    work_with: 'Personal',
+                    work_with_url: 'https://teguhrianto.my.id/',
                     title:'Mikrotik Template', 
                     url: '#',
                     github: 'https://github.com/teguhrianto/responsive-mikrotik-template-bootstrap4',
@@ -169,7 +178,8 @@ export default {
                 },
                 {
                     id: '8',
-                    type: 'Working with Threefold Team',
+                    work_with: 'Threefold Team',
+                    work_with_url: 'http://threefoldwebdev.com/',
                     title:'Fuji String', 
                     url: 'https://fujistring.com/',
                     github: '',
@@ -186,7 +196,8 @@ export default {
                 },
                 {
                     id: '9',
-                    type: 'Working with Threefold Team',
+                    work_with: 'Threefold Team',
+                    work_with_url: 'http://threefoldwebdev.com/',
                     title:'Lady Eve Patisserie', 
                     url: 'https://ladyeve.id/',
                     github: '',
@@ -203,7 +214,8 @@ export default {
                 },
                 {
                     id: '10',
-                    type: 'Working with Threefold Team',
+                    work_with: 'Threefold Team',
+                    work_with_url: 'http://threefoldwebdev.com/',
                     title:'Proof Of Concept', 
                     url: 'https://proofofconcept.co.id/',
                     github: '',
@@ -220,7 +232,8 @@ export default {
                 },
                 {
                     id: '11',
-                    type: 'Working with Threefold Team',
+                    work_with: 'Threefold Team',
+                    work_with_url: 'http://threefoldwebdev.com/',
                     title:'VCGamers', 
                     url: 'https://teguhrianto.my.id/works/vcgamers/',
                     github: '',
@@ -237,7 +250,8 @@ export default {
                 },
                 {
                     id: '12',
-                    type: 'Working with Threefold Team',
+                    work_with: 'Threefold Team',
+                    work_with_url: 'http://threefoldwebdev.com/',
                     title:'Beyoutiful', 
                     url: 'https://teguhrianto.my.id/works/beyoutiful/',
                     github: '',
@@ -254,7 +268,8 @@ export default {
                 },
                 {
                     id: '13',
-                    type: 'Working with Threefold Team',
+                    work_with: 'Threefold Team',
+                    work_with_url: 'http://threefoldwebdev.com/',
                     title:'Rowawi', 
                     url: 'https://teguhrianto.my.id/works/rowawi/',
                     github: '',
@@ -271,7 +286,8 @@ export default {
                 },
                 {
                     id: '14',
-                    type: 'Working with Threefold Team',
+                    work_with: 'Threefold Team',
+                    work_with_url: 'http://threefoldwebdev.com/',
                     title:'My Life After Coffee', 
                     url: 'https://teguhrianto.my.id/works/my-life-after-coffee/',
                     github: '',
@@ -288,7 +304,8 @@ export default {
                 },
                 {
                     id: '15',
-                    type: 'Working with Threefold Team',
+                    work_with: 'Threefold Team',
+                    work_with_url: 'http://threefoldwebdev.com/',
                     title:'Deamaya', 
                     url: 'https://teguhrianto.my.id/works/deamaya/',
                     github: '',
