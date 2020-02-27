@@ -63,54 +63,54 @@ export default {
                             require('./../assets/img/skills/sass.png'), 
                         ]
                 },
-                {
-                    id: '0',
-                    title:'Net Virtue', 
-                    url: 'https://netvirtue.com.au/',
-                    github: '',
-                    img_first: require('./../assets/img/works/netvirtue.jpg'), 
-                    img_second: '', 
-                    description:'Slicing Sketch Design to HTML Code with responsive layout & cross browser compability.',
-                    tech: [
-                            require('./../assets/img/skills/bootstrap.png'), 
-                            require('./../assets/img/skills/html5.png'), 
-                            require('./../assets/img/skills/css3.png'),
-                            require('./../assets/img/skills/sass.png'), 
-                            require('./../assets/img/skills/jquery.png')
-                        ]
-                },
-                {
-                    id: '1',
-                    title:'Sampoerna Kayoe', 
-                    url: 'https://www.sampoernakayoe.co.id/',
-                    github: '',
-                    img_first: require('./../assets/img/works/sampoerna-kayu.jpg'), 
-                    img_second: '', 
-                    description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
-                    tech: [
-                            require('./../assets/img/skills/bootstrap.png'), 
-                            require('./../assets/img/skills/html5.png'), 
-                            require('./../assets/img/skills/css3.png'),
-                            require('./../assets/img/skills/sass.png'), 
-                            require('./../assets/img/skills/jquery.png')
-                        ]
-                },
-                {
-                    id: '10',
-                    title:'PT SMI (Persero)', 
-                    url: 'https://ptsmi.co.id/',
-                    github: '',
-                    img_first: require('./../assets/img/works/smi.jpg'), 
-                    img_second: '', 
-                    description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
-                    tech: [
-                            require('./../assets/img/skills/bootstrap.png'), 
-                            require('./../assets/img/skills/html5.png'), 
-                            require('./../assets/img/skills/css3.png'),
-                            require('./../assets/img/skills/sass.png'), 
-                            require('./../assets/img/skills/jquery.png')
-                        ]
-                },
+                // {
+                //     id: '0',
+                //     title:'Net Virtue', 
+                //     url: 'https://netvirtue.com.au/',
+                //     github: '',
+                //     img_first: require('./../assets/img/works/netvirtue.jpg'), 
+                //     img_second: '', 
+                //     description:'Slicing Sketch Design to HTML Code with responsive layout & cross browser compability.',
+                //     tech: [
+                //             require('./../assets/img/skills/bootstrap.png'), 
+                //             require('./../assets/img/skills/html5.png'), 
+                //             require('./../assets/img/skills/css3.png'),
+                //             require('./../assets/img/skills/sass.png'), 
+                //             require('./../assets/img/skills/jquery.png')
+                //         ]
+                // },
+                // {
+                //     id: '1',
+                //     title:'Sampoerna Kayoe', 
+                //     url: 'https://www.sampoernakayoe.co.id/',
+                //     github: '',
+                //     img_first: require('./../assets/img/works/sampoerna-kayu.jpg'), 
+                //     img_second: '', 
+                //     description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
+                //     tech: [
+                //             require('./../assets/img/skills/bootstrap.png'), 
+                //             require('./../assets/img/skills/html5.png'), 
+                //             require('./../assets/img/skills/css3.png'),
+                //             require('./../assets/img/skills/sass.png'), 
+                //             require('./../assets/img/skills/jquery.png')
+                //         ]
+                // },
+                // {
+                //     id: '10',
+                //     title:'PT SMI (Persero)', 
+                //     url: 'https://ptsmi.co.id/',
+                //     github: '',
+                //     img_first: require('./../assets/img/works/smi.jpg'), 
+                //     img_second: '', 
+                //     description:'Slicing PSD Design to HTML Code with responsive layout & cross browser compability.',
+                //     tech: [
+                //             require('./../assets/img/skills/bootstrap.png'), 
+                //             require('./../assets/img/skills/html5.png'), 
+                //             require('./../assets/img/skills/css3.png'),
+                //             require('./../assets/img/skills/sass.png'), 
+                //             require('./../assets/img/skills/jquery.png')
+                //         ]
+                // },
                 {
                     id: '2',
                     title:'Luchadores Legales', 
