@@ -1,4 +1,4 @@
-# Bootstrap Vue Personal Portfolio Template
+# Bootstrap Vue Personal Portfolio Template v1
 
 ## Project setup
 ```
